@@ -12,14 +12,29 @@ body {
     width:1000px;
     position:relative;
 }
+#photo_container {
+    position:relative;
+    top:100px;
+    left:100px;
+}
+#logo {
+    position:absolute;
+    top:58px;
+    left:51px;
+}
 
-#logo { position:absolute; top:58px; left:51px; }
-
-#panel { position:absolute; top:165px; left:51px; }
+#panel {
+    position:absolute;
+    top:165px;
+    left:51px;
+}
 
 ul#menu {
-    margin:0px; padding:0px;
-    position:absolute; top:138px; left:75px;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:138px;
+    left:75px;
 }
 ul#right_menu {
     margin:0px; padding:0px;
@@ -45,7 +60,7 @@ ul#menu li a:hover, ul#right_menu li a:hover {
 #zawartosc h2 {
     font-family:Georgia, "Times New Roman", Times, serif;
     color:#dbaa70;
-    margin:0px 0px 20px 0px;
+    margin:0px 0px 15px 0px;
     font-weight:normal;
 }
 
